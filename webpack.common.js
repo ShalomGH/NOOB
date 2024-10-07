@@ -80,6 +80,31 @@ module.exports = {
       filename: './index.html'
     }),
 
+    // Landing page
+    new HtmlWebpackPlugin({
+      template: './src/archive.html',
+      filename: './archive.html'
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      template: './src/articles.html',
+      filename: './articles.html'
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      template: './src/src/mini-gaids.html',
+      filename: './src/mini-gaids.html'
+    }),
+
+     // Landing page
+     new HtmlWebpackPlugin({
+      template: './src/src/dictionary.html',
+      filename: './src/dictionary.html'
+    }),
+
+    
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
