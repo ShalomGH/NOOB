@@ -95,13 +95,13 @@ module.exports = {
     // Мини-гайды "Mini-guides"
     new HtmlWebpackPlugin({
       template: './src/mini-guides.html',
-      filename: './src/mini-guides.html'
+      filename: './mini-guides.html'
     }),
 
      // Словарик "Dictionary"
      new HtmlWebpackPlugin({
       template: './src/dictionary.html',
-      filename: './src/dictionary.html'
+      filename: './dictionary.html'
     }),
 
     // Публикации в разделе статьи "articles"
