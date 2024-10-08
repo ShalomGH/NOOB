@@ -104,10 +104,35 @@ module.exports = {
       filename: './dictionary.html'
     }),
 
+  //ПРИМЕРЫ СТАТЕЙ
     // Публикации в разделе статьи "articles"
     new HtmlWebpackPlugin({
       template: './src/articles/article1.html',
       filename: './articles/article1.html'
+    }),
+
+    // Публикации в разделе архив "archive"
+    new HtmlWebpackPlugin({
+      template: './src/archive/archive1.html',
+      filename: './archive/archive1.html'
+    }),
+
+    // Публикации в разделе словарик "dictionary"
+    new HtmlWebpackPlugin({
+      template: './src/dictionary/word1.html',
+      filename: './dictionary/word1.html'
+    }),
+
+     // Публикации в разделе МИНИ-ГАЙДЫ "Mini-guides"
+     new HtmlWebpackPlugin({
+      template: './src/mini-guides/guide1.html',
+      filename: './mini-guides/guide1.html'
+    }),
+
+    // Публикации в разделе главная "index"
+    new HtmlWebpackPlugin({
+      template: './src/index/indexsite.html',
+      filename: './index/indexsite.html'
     }),
 
     
