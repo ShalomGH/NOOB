@@ -74,34 +74,40 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Landing page
+    // Главная "Index"
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
     }),
 
-    // Landing page
+    // Архив "Archive"
     new HtmlWebpackPlugin({
       template: './src/archive.html',
       filename: './archive.html'
     }),
 
-    // Landing page
+    // Статьи "Articles"
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html'
     }),
 
-    // Landing page
+    // Мини-гайды "Mini-guides"
     new HtmlWebpackPlugin({
-      template: './src/src/mini-gaids.html',
-      filename: './src/mini-gaids.html'
+      template: './src/mini-guides.html',
+      filename: './src/mini-guides.html'
     }),
 
-     // Landing page
+     // Словарик "Dictionary"
      new HtmlWebpackPlugin({
-      template: './src/src/dictionary.html',
+      template: './src/dictionary.html',
       filename: './src/dictionary.html'
+    }),
+
+    // Публикации в разделе статьи "articles"
+    new HtmlWebpackPlugin({
+      template: './src/articles/article1.html',
+      filename: './articles/article1.html'
     }),
 
     
