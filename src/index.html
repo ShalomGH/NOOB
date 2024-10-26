@@ -4,35 +4,50 @@
     <meta charset="utf-8" />
     <title>static-site-boilerplate index</title>
     <analytics></analytics>
-    <a href="./archive.html">Архив</a>
+    <!-- <a href="./archive.html">Архив</a>
     <a href="./articles.html">Статьи</a>
     <a href="./mini-guides.html">Мини-гайды</a>
-    <a href="./dictionary.html">Словарик</a>
+    <a href="./dictionary.html">Словарик</a> -->
   </head>
 
   <body class="index">
-    <div class="images">
-      <div class="image" id="bgPNG"></div>
-      <div class="image" id="bgJPG"></div>
-      <div class="image" id="bgSVG"></div>
-      <img src="images/image.png" />
-      <img src="images/image.jpg" />
-      <img src="images/image.svg" />
+
+    <div class="header">
+      <a class="logo" href="./index.html"><img class="logoimg"  src="images/noob_logo.svg" alt=""></a>
+      <div class="logo2">
+        <a class="about" href="./archive.html">о проекте</a>
+        <div class="vk"><img class="vkphoto" src="images/vk.svg" alt=""></div>
+        <div class="tg"><img class="tgphoto" src="images/tg.svg" alt=""></div>
+      </div>
     </div>
 
-    <div class="landing">This is a landing page</div>
+    <div class="block1">
+      <div class="title1">
+        <img class="noob" src="images/NOOB.svg" alt="">
+        <img class="star" src="images/star.svg" alt=""></div>
 
-    <!-- modify this form HTML and place wherever you want your form -->
-<form id="my-form" action="https://formspree.io/f/xovagrew" method="POST">
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
-  <p id="my-form-status"></p>
-</form>
+      <div class="title"><h1>— медиа о том, как выжить <br>в творческом вузе</h1></div>
 
-<!-- Place this script at the end of the body tag -->
+      <div class="title2">
+        <img class="star" src="images/star.svg" alt="">
+        <p class="slang">NOOB — «нуб», сленговое слово, с англ. «новичок»</p>
+      </div>
+    </div>
+
+    
+    <!-- форма -->
+     <div class="block2">
+      <h2 class="my-form-text">Узнай о запуске первым!</h2>
+      <form id="my-form" action="https://formspree.io/f/xovagrew" method="POST">
+    
+        <input type="email" placeholder="Введите ваш email..." name="email"  />
+        <button id="my-form-button">отправить</button>
+      </form>
+     </div>
+    
+  
+
+<!-- script at the end of the body tag -->
 <script>
   var form = document.getElementById("my-form");
   

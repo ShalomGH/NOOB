@@ -131,8 +131,8 @@ module.exports = {
 
     // Публикации в разделе главная "index"
     new HtmlWebpackPlugin({
-      template: './src/index/indexsite.html',
-      filename: './index/indexsite.html'
+      template: './src/index/about.html',
+      filename: './index/about.html'
     }),
 
     
