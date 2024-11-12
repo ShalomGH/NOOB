@@ -1,31 +1,31 @@
 @font-face {
   font-family: 'coolvetica';
-  src: url('../fonts/coolvetica rg.otf') format('otf'),
-    url('../fonts/coolvetica rg.otf') format('otf');
+  src: url('../fonts/coolvetica rg.otf') format('opentype'),
+    url('../fonts/coolvetica rg.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SFT-Schrifted-Serif-T';
-  src: url('../fonts/SFT-Schrifted-Serif-Text-Italic.otf') format('otf'),
-    url('../fonts/SFT-Schrifted-Serif-Text-Italic.otf') format('otf');
+  src: url('../fonts/SFT-Schrifted-Serif-Text-Italic.otf') format('opentype'),
+    url('../fonts/SFT-Schrifted-Serif-Text-Italic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'FormaDJRCyrillicMicro';
-  src: url('../fonts/FormaDJRCyrillicMicro-Regular.ttf') format('ttf'),
-    url('../fonts/FormaDJRCyrillicMicro-Regular.ttf') format('ttf');
+  src: url('../fonts/FormaDJRCyrillicMicro-Regular.ttf') format('truetype'),
+    url('../fonts/FormaDJRCyrillicMicro-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Forma DJR Cyrillic Banner";
-  src: url('../fonts/FormaDJRCyrillicBanner-Medium.ttf') format('ttf'),
-    url('../fonts/FormaDJRCyrillicBanner-Medium.ttf') format('ttf');
+  src: url('../fonts/FormaDJRCyrillicBanner-Medium.ttf') format('truetype'),
+    url('../fonts/FormaDJRCyrillicBanner-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
