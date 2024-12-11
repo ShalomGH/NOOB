@@ -104,6 +104,18 @@ module.exports = {
       filename: './dictionary.html'
     }),
 
+    // "About us"
+    new HtmlWebpackPlugin({
+    template: './src/about.html',
+    filename: './about.html' // Финальная версия файла
+    }),
+
+     // "Styleguide"
+     new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html' 
+    }),
+
   //ПРИМЕРЫ СТАТЕЙ
     // Публикации в разделе статьи "articles"
     new HtmlWebpackPlugin({
@@ -131,8 +143,8 @@ module.exports = {
 
     // Публикации в разделе главная "index"
     new HtmlWebpackPlugin({
-      template: './src/index/about.html',
-      filename: './index/about.html'
+      template: './src/index/pages.html',
+      filename: './index/pages.html'
     }),
 
     

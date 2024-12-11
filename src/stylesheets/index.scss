@@ -97,6 +97,55 @@ h2{
       }
   }
 }
+.header2{
+  z-index: 1;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  border-radius: 2vw;
+  background-color: white;
+  border: 0.09vw solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6vw;
+  .logo{
+    display: flex;
+    background: #ffffff;
+    height: 2vw;
+    border-radius: 2vw;
+    justify-content: center;
+    align-items: center;
+    .logoimg{width: 5vw;}
+    .logo:hover{
+      background-color: #FF5C39;
+      color: white;
+      border: 0.1vw solid #000;}
+  }
+  .about{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 6vw;
+    height: 2vw;
+    text-align: center;
+    font-family: "Forma DJR Cyrillic Micro";
+    font-size: 0.9vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .about:hover{
+    font-family: 'SFT-Schrifted-Serif-T', italic;
+    background-color: #FF5C39;
+    color: white;
+    border: 0.1vw solid #000;}
+}
+
 
 
 .block1{
