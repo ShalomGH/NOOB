@@ -97,12 +97,63 @@ h2{
       }
   }
 }
+.header2{
+  z-index: 1;
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  border-radius: 2vw;
+  background-color: white;
+  border: 0.09vw solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6vw;
+  .logo{
+    display: flex;
+    background: #ffffff;
+    width: 7vw;
+    height: 2vw;
+    border-radius: 2vw;
+    justify-content: center;
+    align-items: center;
+    .logoimg{width: 5vw;}
+    .logo:hover{
+      background-color: #FF5C39;
+      border: 0.1vw solid #000;}
+  }
+  .about{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 7vw;
+    height: 2vw;
+    text-align: center;
+    font-family: "Forma DJR Cyrillic Micro";
+    font-size: 0.9vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .about:hover{
+    font-family: 'SFT-Schrifted-Serif-T', italic;
+    background-color: #FF5C39;
+    color: white;
+    border: 0.1vw solid #000;}
+}
 
+.index{
+  background-color: #FF5C39;
+}
 
 .block1{
   width: 100%;
   height: 46vw;
-  background-color: #FF5C39;
+  background-color: #F4F4F4;
   border-bottom-left-radius: 3vw; 
   border-bottom-right-radius: 3vw;
   display: flex;
@@ -113,29 +164,29 @@ h2{
   .title1{
     display: flex;
     width: 100%;
-    height: 30vw;
+    height: 50vw;
     justify-content: center;
-      align-items: center;
+    align-items: center;
     .noob{
-      width: 36vw;
+      width: 60vw;
       display: flex;
       justify-content: center;
       align-items: center;
     }
     .star{
       width: 3vw;
-      margin-bottom: 10vw;
+      margin-bottom: 14vw;
     }
   }
 
 
   .title{
     height: 5vw;
-    font-family: "Forma DJR Cyrillic Banner";
-    font-size: 5vw;
-    color: white;
+    font-family: "Forma DJR Cyrillic Micro";
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: -7vw;
+    margin-top: -3vw;
   }
 
   .title2{
@@ -154,12 +205,43 @@ h2{
     .slang{
       font-family: "Forma DJR Cyrillic Micro";
       font-size: 1vw;
-      color: white;
+      color: black;
       margin-bottom: 3vw;
       margin-left: 1vw;
     }
   }
+
+  /* ГЛАЗА */
+.move-area{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
 }
+.container{
+  width: 33vw;
+  background-color: #FF1393;
+}
+.eye{
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 16vw;
+  background: rgb(249, 255, 255);
+  width: 16vw;
+}
+.eye:after{
+  position: absolute;
+  bottom: 5vw;
+  right: 1vw;
+  height: 5vw;
+  width: 5vw;
+  background-color: black;
+  border-radius: 50%;
+  content: "";
+}
+}
+
+
 
 .block2{
   display: flex;
