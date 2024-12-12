@@ -8,7 +8,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    eyes: './src/eyes.js'
   },
   output: {
     filename: '[name].js',
@@ -171,3 +172,12 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
+
+const webpack = require('webpack');
+
+plugins: [
+  new webpack.ProvidePlugin({
+    $: 'jquery',
+    jQuery: 'jquery'
+  })
+]
