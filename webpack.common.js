@@ -158,6 +158,11 @@ module.exports = {
     //   chunks: ['page']
     // }),
 
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    }),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
@@ -167,17 +172,10 @@ module.exports = {
         priority: 'replace'
       }
     ])
+    
   ],
+  
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
   }
 }
-
-const webpack = require('webpack');
-
-plugins: [
-  new webpack.ProvidePlugin({
-    $: 'jquery',
-    jQuery: 'jquery'
-  })
-]

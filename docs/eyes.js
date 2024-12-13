@@ -1,36 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 230:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-/* provided dependency */ var $ = __webpack_require__(692);
-document.addEventListener("DOMContentLoaded", function () {
-  var moveArea = document.querySelector(".move-area");
-  var eye = document.querySelector(".eye");
-  moveArea.addEventListener("mousemove", function (event) {
-    var x = eye.offsetLeft + eye.offsetWidth / 2;
-    var y = eye.offsetTop + eye.offsetHeight / 2;
-    var rad = Math.atan2(event.pageX - x, event.pageY - y);
-    var rot = rad * (180 / Math.PI) * -1 + 180;
-    eye.style.transform = 'rotate(' + rot + 'deg)';
-  });
-});
-$(document).ready(function () {
-  $(".move-area").mousemove(function (event) {
-    var eye = $(".eye");
-    var x = eye.offset().left + eye.width() / 2;
-    var y = eye.offset().top + eye.height() / 2;
-    var rad = Math.atan2(event.pageX - x, event.pageY - y);
-    var rot = rad * (180 / Math.PI) * -1 + 180;
-    eye.css({
-      "transform": "rotate(" + rot + "deg)"
-    });
-  });
-});
-
-/***/ }),
-
 /***/ 692:
 /***/ (function(module, exports) {
 
@@ -10782,45 +10752,30 @@ return jQuery;
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
-(() => {
-"use strict";
-/* harmony import */ var _eyes_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(230);
-/* harmony import */ var _eyes_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_eyes_js__WEBPACK_IMPORTED_MODULE_0__);
-
-
-})();
-
+/* provided dependency */ var $ = __webpack_require__(692);
+document.addEventListener("DOMContentLoaded", function () {
+  var moveArea = document.querySelector(".move-area");
+  var eye = document.querySelector(".eye");
+  moveArea.addEventListener("mousemove", function (event) {
+    var x = eye.offsetLeft + eye.offsetWidth / 2;
+    var y = eye.offsetTop + eye.offsetHeight / 2;
+    var rad = Math.atan2(event.pageX - x, event.pageY - y);
+    var rot = rad * (180 / Math.PI) * -1 + 180;
+    eye.style.transform = 'rotate(' + rot + 'deg)';
+  });
+});
+$(document).ready(function () {
+  $(".move-area").mousemove(function (event) {
+    var eye = $(".eye");
+    var x = eye.offset().left + eye.width() / 2;
+    var y = eye.offset().top + eye.height() / 2;
+    var rad = Math.atan2(event.pageX - x, event.pageY - y);
+    var rot = rad * (180 / Math.PI) * -1 + 180;
+    eye.css({
+      "transform": "rotate(" + rot + "deg)"
+    });
+  });
+});
 /******/ })()
 ;
