@@ -1,4 +1,3 @@
-/******/ (() => { // webpackBootstrap
 document.addEventListener("DOMContentLoaded", function () {
   var eyes = document.querySelectorAll(".eyes-container .eye");
   if (eyes.length === 0) {
@@ -70,5 +69,3 @@ document.addEventListener("DOMContentLoaded", function () {
 //     });
 //   });
 // });
-/******/ })()
-;
