@@ -1,0 +1,129 @@
+.head2{
+    z-index: 3;
+    position: fixed;
+    height: 3.5vw;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    border-radius: 2vw;
+    background-color: white;
+    border: 0.09vw solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 0.6vw;
+    .logo{
+      display: flex;
+      background: #ffffff;
+      width: 7vw;
+      height: 2vw;
+      border-radius: 2vw;
+      justify-content: center;
+      align-items: center;
+      .logoimg{width: 5vw;}
+      .logo:hover{
+        background-color: #FF5C39;
+        border: 0.1vw solid #000;}
+    }
+    .about{
+      text-decoration: none;
+      background-color: rgb(255, 255, 255);
+      color: black;
+      width: 7vw;
+      height: 2vw;
+      text-align: center;
+      font-family: "Forma DJR Cyrillic Micro";
+      font-size: 0.9vw;
+      border-radius: 2vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .about:hover{
+      font-family: 'SFT-Schrifted-Serif-T', italic;
+      background-color: #FF5C39;
+      color: white;
+      border: 0.1vw solid #000;}
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #FF5C00;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about, .logos, .colors, .typography, .composition, .mockups {
+    margin-bottom: 50px;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.logos img,
+.colors img,
+.mockups img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.colors {
+    text-align: center;
+}
+
+.typography {
+    display: flex;
+    justify-content: space-between;
+}
+
+.composition {
+    text-align: center;
+}
+
+footer {
+    background-color: #FF5C00;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

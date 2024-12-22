@@ -97,8 +97,8 @@ h2{
       }
   }
 }
-.header2{
-  z-index: 2;
+.head2{
+  z-index: 3;
   position: fixed;
   top: 5%;
   left: 50%;
@@ -110,7 +110,7 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  
   padding: 0.6vw;
   .logo{
     display: flex;
@@ -162,12 +162,12 @@ h2{
   align-items: center; 
 
   .title1{
+    position: relative;
     display: flex;
     width: 100%;
     height: 50vw;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     .noob{
       width: 60vw;
       display: flex;
@@ -217,19 +217,26 @@ h2{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  
+  display: flex;
+  justify-content: center;
+ 
 }
 .container{
-  width: 33vw;
-  z-index: -1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  margin-top: -8.5vw;
+  width: 50vw;
+ 
 }
 .eye{
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  height: 16vw;
-  background: rgb(249, 255, 255);
-  width: 16vw;
+  height: 11vw;
+  width: 11vw;
 }
 .eye:after{
   position: absolute;
