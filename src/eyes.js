@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var eyes = document.querySelectorAll(".eyes-container .eye");
+  var eyes = document.querySelectorAll("eye");
 
   if (eyes.length === 0) {
     console.error("No elements with class '.eye' found in the DOM.");
