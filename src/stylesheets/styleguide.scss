@@ -190,26 +190,26 @@ nav {
 
     .mininoob2block{
         display: flex;
-
-        gap: 8vw;
+        gap: 2vw;
         .mininoob{
             display: flex;
             flex-wrap: wrap;
             gap: 2vw;
-            width: 35vw;
+
         }
         .mininoob2{
             display: flex;
             flex-direction: column;
             gap: 2vw;
+            width: 30vw;
         }
        
     }
     
     .logosmall{
-        height: 8vw;
+        height: 7vw;
     }
-    .logosmall2{width: 8vw;}
+    .logosmall2{width: 7vw;}
 }
 #colors{
     .combine{
