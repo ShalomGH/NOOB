@@ -148,15 +148,13 @@ module.exports = {
       filename: './index/pages.html'
     }),
 
-    
-    // Internal pages
-    // new HtmlWebpackPlugin({
-    //   hash: true,
-    //   scriptLoading: 'blocking',
-    //   template: './src/pages/page.html',
-    //   filename: './pages/page.html',
-    //   chunks: ['page']
-    // }),
+    // Страница 404
+     new HtmlWebpackPlugin({
+      template: './src/http-codes/404.html',
+      filename: './http-codes/404.html'
+    }),
+
+
 
     new webpack.ProvidePlugin({
       $: 'jquery',
