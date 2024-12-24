@@ -240,7 +240,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3vw;
+  gap: 4vw;
   width: 50vw;
  
 }
@@ -726,13 +726,12 @@ h2{
     }
   }
   }
-.popular_articles{
-    padding: 0 60px 0;
-}
+
 
 .title-main{
       font-size: 3rem;
       padding: 0 0 15px;
+      line-height: normal;
     }
 .subtitle{
     font-family: 'Forma DJR Cyrillic Micro', sans-serif;
@@ -767,6 +766,23 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 60px 60px 60px;
+
+}
+.articles-main-block{
+padding: 40px 0 0;
+    .articles{
+        gap: 15px;
+        padding: 0;
+    }
+}
+.dictionary_for_noob{
+    .quizlet-main{
+        width: 100vw;
+        border-radius: 30px;
+        background-color: #FF5C39;
+        padding: 60px 0;
+}
 }
 
 
