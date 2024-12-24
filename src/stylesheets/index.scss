@@ -7,7 +7,7 @@ body {
   background-color: #FFFFFF;
 }
 body{
-  font-family: 'Forma DJR Cyrillic Micro', 'Forma DJR Cyrillic Banner';
+  font-family: 'Forma DJR Cyrillic Micro', 'Forma DJR Cyrillic Display';
   font-weight: 400;
   font-family: 'SFT-Schrifted-Serif-T', italic;
 
@@ -108,6 +108,7 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   
   padding: 0.6vw;
   .logo{
