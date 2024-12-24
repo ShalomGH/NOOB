@@ -17,7 +17,7 @@ p{
   font-family: "Forma DJR Cyrillic Micro";
 }
 h1{
-  font-family: "Forma DJR Cyrillic Display";
+  font-family: "Forma DJR Cyrillic Micro";
 }
 h2{
   font-family: 'SFT-Schrifted-Serif-T';
@@ -721,11 +721,52 @@ h2{
     }
 
     .icon {
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
     }
   }
+  }
+.popular_articles{
+    padding: 0 60px 0;
 }
 
+.title-main{
+      font-size: 3rem;
+      padding: 0 0 15px;
+    }
+.subtitle{
+    font-family: 'Forma DJR Cyrillic Micro', sans-serif;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.all_articles {
+      font-family: 'Forma DJR Cyrillic Micro', sans-serif;
+      font-size: 14px;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border: 1px solid #000;
+      border-radius: 30px;
+      background-color: black;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #FF5C39;
+        color: #fff;
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+}
+.header-main-all{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
