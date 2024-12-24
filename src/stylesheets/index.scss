@@ -144,16 +144,11 @@ h2{
     border: 0.1vw solid #000;}
 }
 
-.index{
-  background-color: #FF5C39;
-}
 
 .block1{
   width: 100%;
-  height: 46vw;
-  background-color: #F4F4F4;
-  border-bottom-left-radius: 3vw; 
-  border-bottom-right-radius: 3vw;
+  height: 100vh;
+  background-color: #FF5C39;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,14 +158,32 @@ h2{
     position: relative;
     display: flex;
     width: 100%;
-    height: 50vw;
     justify-content: center;
     align-items: center;
+    z-index: 0;
+    height: 100vh;
+
+
+
     .noob{
       width: 60vw;
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        border-radius: 30vw;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        z-index: -1;
+        border: 1.5px solid black;
     }
     .star{
       width: 3vw;
@@ -186,6 +199,8 @@ h2{
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: -3vw;
+    z-index: 2;
+   transform: translateY(-100%);
   }
 
   .title2{
