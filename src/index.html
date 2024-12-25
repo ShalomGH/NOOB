@@ -35,7 +35,7 @@
 <body class="index">
 
 <div class="head2">
-    <a class="logo" href="./index.html"><img class="logoimg" src="./images/logo_eyes.png" alt=""></a>
+    <a class="logo" href="./index.html"><img class="logoimg" src="./images/logo_eyes.svg" alt=""></a>
     <a class="about" href="./articles.html">Статьи</a>
     <a class="about" href="./dictionary.html">Словарик</a>
     <a class="about" href="./mini-guides.html">Мини-гайды</a>
@@ -325,17 +325,74 @@
 
 
 </section>
+<section class="minigaid-section">
+    <div class="header-main-all">
+        <div class="header-main">
+            <h2 class="title-main">
+                Мини-гайды
+                <img class="emoji" src="./images/main_img/noob-chill_guy.svg" alt="звезда"/>
+            </h2>
+            <p class="subtitle">Кратко объясняем сложное</p>
+        </div>
+        <a class="all_articles" href="./archive.html">все статьи →</a>
+    </div>
+    <div class="minigaid-main">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Горячие клавиши Photoshop</h3>
+                    <p>Все полезные горячие клавиши для Photoshop</p>
+                </div>
+                <div class="card-image">
+                    <img src="./images/mini-gaid_img/help-gay.png" alt="Help Key">
+                </div>
+            </div>
 
+            <div class="card">
+                <div class="card-content">
+                    <h3>Выбор шрифтов для первого проекта</h3>
+                    <p>Выбрать шрифт может быть сложно и занимает много времени, мы подскажем как не ошибиться</p>
+                </div>
+                <div class="card-image">
+                    <img src="./images/mini-gaid_img/books.png" alt="Fonts">
+                </div>
+            </div>
 
-<!-- форма -->
-<div class="block2">
-    <h2 class="my-form-text">Узнай о запуске первым!</h2>
-    <form id="my-form" action="https://formspree.io/f/xovagrew" method="POST">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Примеры хороших и плохих презентаций</h3>
+                    <p>Учись на чужих ошибках</p>
+                </div>
+                <div class="card-image">
+                    <img src="./images/mini-gaid_img/poster.png" alt="Fonts">
+                </div>
+            </div>
 
-        <input type="email" placeholder="Введите ваш email..." name="email"/>
-        <button id="my-form-button">отправить</button>
-    </form>
-</div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>5 правил хорошего <br>UI-дизайна</h3>
+                    <p>Будет полезно начинающим веб-дизайнерам</p>
+                </div>
+                <div class="card-image">
+                    <img src="./images/mini-gaid_img/warning.png" alt="Fonts">
+                </div>
+            </div>
+        </div>
+
+</section>
+<section class="forma-section">
+    <div class="block2">
+        <h2 class="my-form-text">Будь в курсе первым!</h2>
+        <p class="my-form-text-p">Подпишись на новости от нубика </p>
+        <img src="./images/main_img/forma-png.png" class="forma-png">
+        <form id="my-form" action="https://formspree.io/f/xovagrew" method="POST">
+
+            <input type="email" placeholder="Введите ваш email..." name="email"/>
+            <button id="my-form-button">отправить</button>
+        </form>
+    </div>
+
+</section>
 
 
 <!-- script at the end of the body tag -->
@@ -371,5 +428,38 @@
     }
     form.addEventListener("submit", handleSubmit)
 </script>
+<footer>
+  <div class="socials">
+    <div class="text">Подписывайся на соц.сети нуба!</div>
+    <div class="icon">
+    <a href="#" aria-label="VK">
+        <img src="./images/main_img/vk.svg" alt="VK" />
+      </a>
+      <a href="#" aria-label="Telegram">
+        <img src="./images/main_img/tg.svg" alt="Telegram" />
+      </a>
+    </div>
+  </div>
+  <div class="info">
+    <div class="creators">
+      <h4>Создатели</h4>
+      <ul>
+        <li>Бадмаева Айса</li>
+        <li>Юлун Элина</li>
+      </ul>
+    </div>
+    <div class="sections">
+      <h4>Разделы</h4>
+      <ul>
+        <li><a href="./articles.html">Статьи</a></li>
+        <li><a href="./dictionary.html">Словарь</a></li>
+        <li><a href="./archive.html">Архив</a></li>
+        <li><a href="./mini-guides.html">Мини-гайды</a></li>
+        <li><a href="./about.html">О нас</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

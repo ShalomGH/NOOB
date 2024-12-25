@@ -286,8 +286,16 @@ h2{
     height: 4.5vw;
     border-radius: 5vw;
     border: 0.09vw solid #000;
-    background-color: #FF5C39;
+    background-color: #ffffff;
     text-decoration: none;
+        #my-form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: #fff;
+        }
     input{
       border-radius: 2vw;
       width: 18vw;
@@ -296,6 +304,7 @@ h2{
       font-size: 1vw;
       text-align: center;
       border: 0.1vw solid #000;
+      background-color: #F0EFEF;
     }
     button{
       border-radius: 2vw;
@@ -788,5 +797,128 @@ padding: 40px 0 0;
     width: 100vw;
     border-radius: 30px;
     }
+.minigaid-main{
+    width: 100vw;
+    border-radius: 30px;
+    background-color: #FF5C39;
+    padding: 60px 0;
+}
+.forma-section{
+    width:100vw;
+    height: 70vh;
+    background-color: #F0EFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .my-form-text {
+        font-size: 2rem;
+
+    }
+
+
+    .my-form-text-p{
+    font-size: 1rem;
+
+    }
+
+    .forma-png{
+    width:80vw;
+    position:absolute;
+    margin-top: -7vw;
+    }
+}
+footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .socials {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .text {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+
+    .icon {
+      display: flex;
+      gap: 60px;
+      padding: 60px;
+
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+
+        &:hover {
+          background-color: gray;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    gap: 50px;
+
+    .creators,
+    .sections {
+      text-align: left;
+      font-size: 16px;
+
+      h4 {
+        margin-bottom: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 10px;
+          height: 10px;
+          margin-right: 10px;
+        }
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin-bottom: 5px;
+
+          a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.3s;
+
+            &:hover {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 
 
